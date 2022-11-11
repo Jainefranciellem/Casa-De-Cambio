@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./img/Group\ 2.svg');
+}
+
+h1 {
+  position: absolute;
+  width: 517px;
+  height: 74px;
+  left: 306px;
+  top: 63px;
+
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+
+  color: #FFFFFF;
+}
+
+p {
+  position: absolute;
+  width: 111px;
+  height: 15px;
+  left: 307px;
+  top: 165px;
+
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 16px;
+
+  color: #FFFFFF;
+}
+
+#inputMoeda {
+  position: absolute;
+  width: 171px;
+  height: 48px;
+  left: 306px;
+  top: 185px;
+  border-style: none;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px;
+}
+
+#button {
+  position: absolute;
+  width: 111px;
+  height: 25px;
+  left: 521px;
+  top: 196px;
+
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 171px;
+  height: 48px;
+  left: 491px;
+  top: 185px;
+
+  background: #96EB95;
+  border: 1px solid #96EB95;
+  border-radius: 10px;
+  color: #373737;
+}
+
+#area {
+  position: absolute;
+  width: 900px;
+  height: 583px;
+  left: 306px;
+  top: 290px;
+  overflow: scroll;
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+
+}
+
+#textArea {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+span {
+  color: #96EB95;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 14px;
+  column-gap: 21px;
+  padding: 20px;
+}
+
+li {
+  background-image: url('./img/coins-svgrepo-com\ 1.svg');
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 154px;
+  height: 44px;
+  left: 338px;
+  top: 777px;
+  padding: 0px 5px;
+  color: rgb(178, 178, 23);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#area::-webkit-scrollbar {
+  width: 5px;
+  height: 100%;
+}
+
+#area::-webkit-scrollbar-track {
+  background: rgb(100, 100, 100);
+}
+
+#area::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border: 3px solid rgb(55, 55, 55);
+}
+
+#coin {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+#quotation {
+  color: rgb(136, 136, 29)
+}
